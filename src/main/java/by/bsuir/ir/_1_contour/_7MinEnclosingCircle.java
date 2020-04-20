@@ -1,6 +1,6 @@
 package by.bsuir.ir._1_contour;
 
-import by.bsuir.ir.AbstarctOpenCV;
+import by.bsuir.ir.AbstractOpenCV;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,6 @@ import org.opencv.core.Mat;
 import org.opencv.core.MatOfPoint;
 import org.opencv.core.MatOfPoint2f;
 import org.opencv.core.Point;
-import org.opencv.core.RotatedRect;
 import org.opencv.core.Scalar;
 import org.opencv.highgui.HighGui;
 import org.opencv.imgproc.Imgproc;
@@ -18,7 +17,7 @@ import org.opencv.imgproc.Imgproc;
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-09
  */
-public class _7MinEnclosingCircle extends AbstarctOpenCV {
+public class _7MinEnclosingCircle extends AbstractOpenCV {
 
   private static final String SOURCE_IMAGE_TEXT = "Исходное изображение";
   private static final String RESULT = "Результат";

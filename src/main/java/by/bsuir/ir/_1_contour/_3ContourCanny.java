@@ -1,12 +1,8 @@
 package by.bsuir.ir._1_contour;
 
-import by.bsuir.ir.AbstarctOpenCV;
+import by.bsuir.ir.AbstractOpenCV;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 import org.opencv.core.Mat;
-import org.opencv.core.MatOfPoint;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
 import org.opencv.highgui.HighGui;
@@ -16,7 +12,7 @@ import org.opencv.imgproc.Imgproc;
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-09
  */
-public class _3ContourCanny extends AbstarctOpenCV {
+public class _3ContourCanny extends AbstractOpenCV {
 
   private static final String SOURCE_IMAGE_TEXT = "Исходное изображение";
   public static final String WINDOW_NAME = "Детектор границ Канни";

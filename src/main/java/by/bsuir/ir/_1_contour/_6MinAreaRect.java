@@ -1,6 +1,6 @@
 package by.bsuir.ir._1_contour;
 
-import by.bsuir.ir.AbstarctOpenCV;
+import by.bsuir.ir.AbstractOpenCV;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ import org.opencv.imgproc.Imgproc;
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-09
  */
-public class _6MinAreaRect extends AbstarctOpenCV {
+public class _6MinAreaRect extends AbstractOpenCV {
 
   private static final String SOURCE_IMAGE_TEXT = "Исходное изображение";
   private static final String RESULT = "Результат";

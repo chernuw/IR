@@ -1,24 +1,19 @@
 package by.bsuir.ir._2_histogram;
 
-import by.bsuir.ir.AbstarctOpenCV;
-import java.net.URL;
+import by.bsuir.ir.AbstractOpenCV;
 import java.util.Collections;
 import org.opencv.core.Core;
-import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfFloat;
 import org.opencv.core.MatOfInt;
-import org.opencv.core.Point;
 import org.opencv.core.Range;
-import org.opencv.core.Scalar;
-import org.opencv.highgui.HighGui;
 import org.opencv.imgproc.Imgproc;
 
 /**
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-18
  */
-public class _3ComparingHistograms extends AbstarctOpenCV {
+public class _3ComparingHistograms extends AbstractOpenCV {
 
 
   public static void main(String[] args) {

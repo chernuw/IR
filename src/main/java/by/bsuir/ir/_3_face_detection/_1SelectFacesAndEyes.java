@@ -1,13 +1,10 @@
 package by.bsuir.ir._3_face_detection;
 
-import by.bsuir.ir.AbstarctOpenCV;
+import by.bsuir.ir.AbstractOpenCV;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfRect;
-import org.opencv.core.Rect;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
 import org.opencv.highgui.HighGui;
@@ -18,7 +15,7 @@ import org.opencv.objdetect.CascadeClassifier;
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-18
  */
-public class _1SelectFacesAndEyes extends AbstarctOpenCV {
+public class _1SelectFacesAndEyes extends AbstractOpenCV {
 
   private static final String FACE_CLASSIFIER_PATH = "D:\\opencv\\opencv\\build\\etc\\haarcascades\\haarcascade_frontalface_alt2.xml";
   private static final String EYE_CLASSIFIER_PATH = "D:\\opencv\\opencv\\build\\etc\\haarcascades\\haarcascade_eye.xml";

@@ -8,8 +8,7 @@ import org.opencv.imgcodecs.Imgcodecs;
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-09
  */
-public abstract class AbstarctOpenCV {
-
+public abstract class AbstractOpenCV {
 
   static {
     System.load("D:\\opencv\\opencv\\build\\java\\x64\\opencv_java430.dll");

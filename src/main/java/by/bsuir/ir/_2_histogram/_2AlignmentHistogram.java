@@ -1,10 +1,8 @@
 package by.bsuir.ir._2_histogram;
 
-import by.bsuir.ir.AbstarctOpenCV;
+import by.bsuir.ir.AbstractOpenCV;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
@@ -19,7 +17,7 @@ import org.opencv.imgproc.Imgproc;
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-18
  */
-public class _2AlignmentHistogram extends AbstarctOpenCV {
+public class _2AlignmentHistogram extends AbstractOpenCV {
 
   private static final String SOURCE_IMAGE_TEXT = "Исходное изображение";
   private static final String SOURCE_HISTOGRAM_TEXT = "Исходн. гистограмма";

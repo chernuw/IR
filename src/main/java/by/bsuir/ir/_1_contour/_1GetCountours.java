@@ -1,20 +1,19 @@
 package by.bsuir.ir._1_contour;
 
-import by.bsuir.ir.AbstarctOpenCV;
+import by.bsuir.ir.AbstractOpenCV;
 import java.net.URL;
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Size;
 import org.opencv.highgui.HighGui;
-import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
 /**
  * @author <a href="mailto:roman.gotovko@pstlabs.by">Roman Gotovko</a>
  * @since 2020-04-09
  */
-public class _1GetCountours extends AbstarctOpenCV {
+public class _1GetCountours extends AbstractOpenCV {
 
   private static final String SOURCE_IMAGE_TEXT = "Исходное изображение";
   private static final String RESULT_1 = "Результат 1";
